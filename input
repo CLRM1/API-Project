@@ -6,7 +6,7 @@ def main():
     b = input("Enter Yes or No:")
     if b == "Yes":
               print("Cool. Checking API...")
-              ###Run API script
+              ###Run API script with variable a
     if b == "No":
         print("Start over.")
         ###bring back to main
