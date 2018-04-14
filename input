@@ -1,0 +1,14 @@
+def main():
+    ###Run python3 in terminal. Type: main(): after the >>> to start the program
+    a = input("Enter API Key here: ")
+    print("")
+    print("Is this correct?",a)
+    b = input("Enter Yes or No:")
+    if b == "Yes":
+              print("Cool. Checking API...")
+              ###Run API script
+    if b == "No":
+        print("Start over.")
+        ###bring back to main
+        main()   
+main()
